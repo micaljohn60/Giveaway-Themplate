@@ -1,0 +1,78 @@
+.btn-upoadgiveaway{
+  background-color: #00FFF1;
+  color: #000000;
+}
+
+.btn-choosewinner{
+  background-color: #1D5176;
+  color: #FFFBFB;
+}
+
+.btn-choosewinner:hover{
+  color: #FFFBFB;
+}
+
+.myImage{
+  width: 500px;
+  height: 270px;
+}
+
+.uploadDateFont{
+  font-size: 20px;
+}
+
+.form-control-file-width{
+  width: 500px;
+}
+
+.numberbox{
+  width: 150px;
+  height: 100px;
+  background-color: #C3EFEB;
+}
+
+.generateWinner{
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.winnerFont{
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1080px) {
+
+  h1{
+    font-size: 50px;
+  }
+
+  .myImage{
+  }
+
+  .currentTime{
+    margin-top: 10px;
+  }
+
+  .btn-upoadgiveaway{
+    background-color: #00FFF1;
+    color: #000000;
+    width: 500px;
+    height: 100px;
+    font-size: 28px;
+    margin-top: 1em;
+  }
+
+  .btn-choosewinner{
+    background-color: #1D5176;
+    color: #FFFBFB;
+    width: 500px;
+    height: 100px;
+    font-size: 28px;
+    margin-top: 1em;
+
+  }
+
+}

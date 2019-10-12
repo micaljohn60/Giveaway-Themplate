@@ -1,0 +1,216 @@
+
+body {
+
+color: #fff;
+font: 87.5%/1.5em 'Open Sans', sans-serif;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-image:linear-gradient(#e66465, #9198e5);
+
+}
+
+ .form-wrapper {
+width:300px;
+height:390px;
+position: absolute;
+left: 50%;
+margin: 150px 0px 0px -155px;
+background: rgba(0,0,0,0.27);
+padding: 15px 25px;
+border-radius: 5px;
+box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+
+.form-item {
+width:100%;
+}
+
+ h3{
+font-size: 25px;
+font-weight: 640;
+margin-bottom: 10px;
+color: #e7e7e7;
+padding:6px;
+font-family:'sans-serif','helvetica';
+
+}
+ .form-item input{
+border: none;
+background:transparent;
+color: #fff;
+margin-top:11px;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.2em;
+height: 49px;
+padding: 0 16px;
+width: 100%;
+padding-left: 55px;
+}
+
+.form-item input:focus {
+outline: none;
+border:1.4px solid #cfecf0;
+}
+
+ input[type='password']{
+background: transparent url("image/pass.jpg") no-repeat;
+background-position: 10px 50%;
+}
+
+ input[type='email']{
+background-image: url(image/user.jpg);
+background-repeat: no-repeat;
+background-position: 10px 50%;
+}
+
+ .button-panel {
+margin-bottom: 20px;
+padding-top: 10px;
+width: 100%;
+}
+
+.button-panel .button {
+background: #00b6df;
+border: none;
+color: #fff;
+cursor: pointer;
+height: 45px;
+font-family: 'helvetica','Open Sans', sans-serif;
+font-size: 1.2em;
+text-align: center;
+text-transform: uppercase;
+transition: background 0.6s linear;
+width: 100%;
+margin-top:10px;
+}
+
+ .button:hover {
+background: #6eb7cb;
+}
+
+ .form-item input, .button-panel .button {
+border-radius: 2px
+}
+
+.reminder {
+text-align: center;
+}
+
+ .reminder a {
+color: #fff;
+text-decoration: none;
+transition: color 0.5s;
+}
+ .reminder a:hover {
+color: #666666;
+}
+
+@media only screen and (max-width: 1080px) {
+
+body{
+  color: #fff;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  background: red;
+
+
+}
+
+.form-wrapper {
+  width:450px;
+  height:420px;
+  position: absolute;
+  left: 50%;
+  margin: 300px 0px 0px -255px;
+  background: rgba(0,0,0,0.27);
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+
+ .form-item {
+width:100%;
+}
+
+ h3{
+  font-size: 30px;
+  font-weight: 640;
+  margin-bottom: 10px;
+  color: #e7e7e7;
+  padding:6px;
+  font-family:'sans-serif','helvetica';
+}
+
+ .form-item input{
+  border: none;
+  background:transparent;
+  color: #fff;
+  margin-top:11px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  height: 70px;
+  padding: 0 16px;
+  width: 100%;
+  padding-left: 55px;
+}
+
+ .form-item input:focus {
+  outline: none;
+  border:1.4px solid #cfecf0;
+}
+
+ input[type='password']{
+  background: transparent url("image/pass.jpg") no-repeat;
+  background-position: 10px 50%;
+}
+  input[type='email']{
+  background-image: url(image/user.jpg);
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+}
+
+ .button-panel {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+ .button-panel .button {
+  background: #00b6df;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 45px;
+  font-family: 'helvetica','Open Sans', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.6s linear;
+  width: 100%;
+  margin-top:10px;
+}
+
+ .button:hover {
+  background: #6eb7cb;
+}
+
+ .form-item input, .button-panel .button {
+  border-radius: 2px
+}
+
+.reminder {
+  text-align: center;
+}
+
+ .reminder a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+ .reminder a:hover {
+  color: #666666;
+}
+
+}
