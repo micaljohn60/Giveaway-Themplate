@@ -106,7 +106,7 @@ color: #666666;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-image:linear-gradient(#e66465, #9198e5);
+    background-image:url(image/gradientbg.jpg);
   }
 
   h3{
