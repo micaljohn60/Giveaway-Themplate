@@ -120,7 +120,7 @@ color: #666666;
 
   .form-wrapper{
     width: 90%;
-    height:490px;
+    height:auto;
     margin:150px 0px 0px 0px;
     padding: 15px 25px;
     border-radius: 5px;
