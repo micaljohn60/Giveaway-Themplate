@@ -104,7 +104,7 @@ color: #666666;
 
   body{
 
-    background: blue;
+    background: green;
   }
 
   h3{
@@ -170,7 +170,7 @@ color: #666666;
   border: none;
   color: #fff;
   cursor: pointer;
-  height: 45px;
+  height: 60px;
   font-family: 'helvetica','Open Sans', sans-serif;
   font-size: 1.2em;
   text-align: center;
