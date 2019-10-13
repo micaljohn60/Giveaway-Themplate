@@ -154,12 +154,12 @@ color: #666666;
   }
 
    input[type='password']{
-  background: transparent url("image/pass.jpg") no-repeat;
+  background: transparent url("image/password-mobile.png") no-repeat;
   background-position: 10px 50%;
   }
 
    input[type='email']{
-  background-image: url(image/user.jpg);
+  background-image: url(image/user-mobile.png);
   background-repeat: no-repeat;
   background-position: 10px 50%;
   }
