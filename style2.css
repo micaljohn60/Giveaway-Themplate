@@ -38,6 +38,7 @@ height: 49px;
 padding: 0 16px;
 width: 100%;
 padding-left: 55px;
+border:1.1px solid rgba(0,0,0,0.27);
 
 }
 
@@ -88,6 +89,7 @@ border-radius: 2px
 }
 
 .reminder {
+  color:#fff;
 text-align: center;
 }
 
@@ -134,7 +136,7 @@ color: #666666;
 
   border: none;
   background:transparent;
-  color: #fff;
+  color: #000;
   margin-top:11px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
@@ -142,6 +144,7 @@ color: #666666;
   padding: 0 16px;
   width: 100%;
   padding-left: 55px;
+  border:1.1px solid rgba(0,0,0,0.27);
 
   }
 
