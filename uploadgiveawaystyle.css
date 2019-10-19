@@ -1,0 +1,53 @@
+textarea{
+  width: 100%;
+}
+
+.rule-list{
+  width: 100%;
+}
+
+.textfield input{
+  height: 20%;
+}
+
+input[type='text']{
+  width: 90%;
+  height: 50px;
+}
+
+@media only screen and (max-width:1080px) {
+
+.fonts{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+input[type="date"]{
+  width: auto;
+  height: 50px;
+}
+
+input[type="file"]{
+  width: auto;
+  height: 30px;
+}
+
+.btn{
+  margin-top: 5px;
+}
+
+textarea{
+  border: none;
+  background:transparent;
+  color:  #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  height: 90px;
+  width: 100%;
+  border:1.1px solid rgba(0,0,0,0.27);
+}
+
+
+
+
+}
